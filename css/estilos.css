@@ -1048,3 +1048,13 @@ font-size: 1rem;
   .modal { padding: 1.3rem; }
   .eventos-form { padding: 1.3rem; }
 }
+
+/* Crédito de la página: espacio extra abajo para que el botón flotante de WhatsApp no lo tape */
+.footer-credito {
+  display: inline-block;
+  margin-top: 0.3rem;
+  line-height: 1.7;
+}
+@media (max-width: 700px) {
+  .footer { padding-bottom: 6rem; }
+}
